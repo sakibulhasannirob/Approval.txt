@@ -74,9 +74,7 @@ def SOPU():
       print(SYSTEM5)
       print(SYSTEM7)
       msg = str(os.geteuid())
-except Exception as e:
-    pass
-prox=open('.prox.txt','r').read().splitlines()
+
 for xd in range(10000):
     a='Mozilla/5.0 (Symbian/3; Series60/'
     b=random.randrange(1, 9)
