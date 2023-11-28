@@ -37,14 +37,43 @@ ua = ["Mozilla/5.0 (Linux; Android 12; Infinix X6827 Build/SP1A.210812.016; wv) 
 ua = ["Mozilla/5.0 (Linux; Android 12; HarmonyOS; LNA-AL00; HMSCore 6.11.0.332) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.88 HuaweiBrowser/14.0.1.302 Mobile Safari/537.36",]
 ua = ["Mozilla/5.0 (Linux; Android 12; Infinix X676B) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/22.0 Chrome/111.0.5563.116 Mobile Safari/537.36",]
  
-ugen2=[]
-ugen=[]
-cokbrut=[]
-ses=requests.Session()
-princp=[]
-try:
-    prox= requests.get('https://github.com/sakibulhasannirob/Approval.txt/blob/main/approved').text
-    open('.prox.txt','w').write(prox)
+logo =(f"""
+\033[0;92m
+\033[0;91m \033[0;92m     \033[0;91m \033[0;92m     \033[0;91m  \033[0;92m     
+\033[0;91m     \033[0;92m       \033[0;91m    \033[0;92m        \033[0;91m   \033[0;92m    
+\033[0;91m     \033[0;92m       \033[0;91m    \033[0;92m        \033[0;91m   \033[0;92m    
+\033[0;91m     \033[0;92m       \033[0;91m    \033[0;92m        \033[0;91m    \033[0;92m   
+\033[0;91m     \033[0;92m    \033[0;91m     \033[0;92m     \033[0;91m  \033[0;92m 
+\033[0;92m               \033[0;92m
+
+\33[0;41m        [ WORKING ONLY MOBILE DATA ]         \033[0;92m
+
+\033[0;94m\033[1;33m 
+[Author                   • \33[1;38mMR-TUTUL ]\33[1;38m     \033[1;31m 
+[Facebook                 • Tutul King ]     \033[1;97m  
+[Github                   • \33[1;38mTutul-King ]   \33[1;34m   
+[Whatsapp                 • 01608843956 ]  \33[1;35m 
+[TOOLS                    • Paid  ]         \33[1;32m   
+[VERSION                  • 3.6 ]          \033[1;35m 
+\033[0;94m\033[1;31m""")
+SYSTEM2 =(""" \033[0;97m=============================================""")    
+SYSTEM3 =(""" \033[32;1m[-] ONLY APPROVAL SYSTEM 7 DEYS 250TK 30 500TK FOR    APPROVAL""")
+SYSTEM4 =(""" \033[32;1m[+] CONTACT ADMIN PLEASE ENTAR""")
+SYSTEM5 =(""" \033[32;1m[]     """)
+SYSTEM6 =(""" \033[32;1m[-] Importent Note """)
+SYSTEM7 =(""" \033[32;1m[]      """)
+#____APPROVAL SYSTEM ADD_____#
+def SOPU():
+  os.system('clear')
+  print(logo)
+  uuid = str(os.geteuid()) + str(os.getlogin())
+  id = "-".join(uuid)
+  try:
+    httpCaht = requests.get('https://github.com/sakibulhasannirob/Approval.txt/blob/main/approved').text
+    if id in httpCaht:
+      print(SYSTEM5)
+      print(SYSTEM7)
+      msg = str(os.geteuid())
 except Exception as e:
     pass
 prox=open('.prox.txt','r').read().splitlines()
@@ -91,18 +120,43 @@ for x in range(10):
     k=random.randrange(1, 9)
     l='Mobile WVGA SMM-MMS/1.2.0 OPN-B'
     uak=f'{a}{b}/{c}{d}{e}{f}{g}{h}{i}{j}.{k} {l}'
-def uaku():
-    try:
-        ua=open('bbnew.txt','r').read().splitlines()
-        for ub in ua:
-            ugen.append(ub)
-    except:
-        a=requests.get('https://github.com/Pro-Max-420/ua/blob/main/bbnew.txt').text
-        ua=open('bbnew.txt','w')
-        aa=re.findall('line">(.*?)<',str(a))
-        for un in aa:
-            ua.write(un+'\n')
-        ua=open('bbnew.txt','r').read().splitlines()
+logo =(f"""
+\033[0;92m
+\033[0;91m \033[0;92m     \033[0;91m \033[0;92m     \033[0;91m  \033[0;92m     
+\033[0;91m     \033[0;92m       \033[0;91m    \033[0;92m        \033[0;91m   \033[0;92m    
+\033[0;91m     \033[0;92m       \033[0;91m    \033[0;92m        \033[0;91m   \033[0;92m    
+\033[0;91m     \033[0;92m       \033[0;91m    \033[0;92m        \033[0;91m    \033[0;92m   
+\033[0;91m     \033[0;92m    \033[0;91m     \033[0;92m     \033[0;91m  \033[0;92m 
+\033[0;92m               \033[0;92m
+
+\33[0;41m        [ WORKING ONLY MOBILE DATA ]         \033[0;92m
+
+\033[0;94m\033[1;33m 
+[Author                   • \33[1;38mMR-TUTUL ]\33[1;38m     \033[1;31m 
+[Facebook                 • Tutul King ]     \033[1;97m  
+[Github                   • \33[1;38mTutul-King ]   \33[1;34m   
+[Whatsapp                 • 01608843956 ]  \33[1;35m 
+[TOOLS                    • Paid  ]         \33[1;32m   
+[VERSION                  • 3.6 ]          \033[1;35m 
+\033[0;94m\033[1;31m""")
+SYSTEM2 =(""" \033[0;97m=============================================""")    
+SYSTEM3 =(""" \033[32;1m[-] ONLY APPROVAL SYSTEM 7 DEYS 250TK 30 500TK FOR    APPROVAL""")
+SYSTEM4 =(""" \033[32;1m[+] CONTACT ADMIN PLEASE ENTAR""")
+SYSTEM5 =(""" \033[32;1m[]     """)
+SYSTEM6 =(""" \033[32;1m[-] Importent Note """)
+SYSTEM7 =(""" \033[32;1m[]      """)
+#____APPROVAL SYSTEM ADD_____#
+def SOPU():
+  os.system('clear')
+  print(logo)
+  uuid = str(os.geteuid()) + str(os.getlogin())
+  id = "-".join(uuid)
+  try:
+    httpCaht = requests.get('https://github.com/sakibulhasannirob/Approval.txt/blob/main/approved').text
+    if id in httpCaht:
+      print(SYSTEM5)
+      print(SYSTEM7)
+      msg = str(os.geteuid())
  
 #------------[ INDICATION ]---------------#
 id,id2,loop,ok,cp,akun,oprek,method,lisensiku,taplikasi,tokenku,uid,lisensikuni= [],[],0,0,0,[],[],[],[],[],[],[],[]
